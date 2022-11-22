@@ -1,12 +1,35 @@
 body{
-    background-color: rgb(107, 178, 30);
+    background-color: rgb(107, 178, 225);
 }
 
 h1{
-    color: red;
-    text-shadow: 3px 3px 4px rgb(255, 150, 0);
+    color: brown;
+    text-shadow: 3px 3px 4px rgb(255, 242, 0);
+}
+li{
+    list-style: none;
+}
 
 h2{
-    color: skyblue;
     font-family: 'Press Start 2P', cursive;
+}
+
+a:link{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(43, 226, 128);
+    text-decoration: underline;
+}
+
+img{
+    top: 130px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    left: 250px;
+    width: 400px;
+    height: 400px;
 }
