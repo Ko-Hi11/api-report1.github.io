@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(107, 178, 225);
+}
+
+h1{
+    color: brown;
+    text-shadow: 3px 3px 4px rgb(255, 242, 0);
+
+h2{
+    font-family: 'Press Start 2P', cursive;
+}
